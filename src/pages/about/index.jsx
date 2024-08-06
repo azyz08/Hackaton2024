@@ -4,7 +4,7 @@ export default function About() {
     return (
         <>
          <div className="bosh pt-[60px] mt-[-5px]">
-                <h1>O'zbekiston Respublikasi Ekologiya Atrof-Muhitni Muhofoza qilish va iqlim o'zgarishi vazirligi</h1>
+                <h1 className="text-black dark:text-white">O'zbekiston Respublikasi Ekologiya Atrof-Muhitni Muhofoza qilish va iqlim o'zgarishi vazirligi</h1>
             </div>
             <div className="katta">
                 <div className="main">
@@ -301,15 +301,15 @@ export default function About() {
                 </div>
             </div>
 
-            <h1 className="text-center text-[50px]">Bizning hamkorlar</h1>
+            <h1 className="text-center text-[50px] text-black dark:text-white">Bizning hamkorlar</h1>
 
             <div className="hamkor grid grid-cols-3 items-center gap-3 p-4 pl-10 pb-10">
-                <img className="ml-[130px]" src="/oq.png" alt="" />
-                <img className="m-[auto]" src="https://static.tildacdn.com/tild3564-6566-4563-a332-386130303564/_.png" alt="" />
-                <img className="m-[auto]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrz40af-0jb_dUGjAeUIS2mVmQ_8UjmJPF-A&s" alt="" />
-                <img className="m-[auto]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfFO8SBoMYNXLEMWkdNizODQvg5476aPs3BA&s" alt="" />
-                <img className="m-[auto]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAk4LWuiSxz6LrljUNDK-GLncxIyOapz9Lkg&s" alt="" />
-                <img className="m-[auto]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpixJyqeHsf-lXhg0evayffCSEL72NOTTHJg&s" alt="" />
+                <a href="https://oqtepalavash.uz/"><img className="ml-[130px]" src="/oq.png" alt="" /></a>      
+                <a href="https://akfagroup.com/"><img className="m-[auto]" src="https://static.tildacdn.com/tild3564-6566-4563-a332-386130303564/_.png" alt="" /></a>
+                <a href="https://coddycamp.uz/"><img className="m-[auto]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrz40af-0jb_dUGjAeUIS2mVmQ_8UjmJPF-A&s" alt="" /></a>
+                <a href="https://ricomel.com/"> <img className="m-[auto]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfFO8SBoMYNXLEMWkdNizODQvg5476aPs3BA&s" alt="" /></a>
+               <a href="https://24.gorodsreda."><img className="m-[auto]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAk4LWuiSxz6LrljUNDK-GLncxIyOapz9Lkg&s" alt="" /></a>
+                <a href="https://the-tech.kz/"><img className="m-[auto]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpixJyqeHsf-lXhg0evayffCSEL72NOTTHJg&s" alt="" /></a>
             </div>
         </>
     )
