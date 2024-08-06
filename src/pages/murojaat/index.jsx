@@ -30,8 +30,8 @@ export default function Murojaat() {
                 <form>
                     <h1 className='text-[25px] text-center'>Qanday muammo bor</h1>
                     <span>
-                        <Input color="teal" label="Murojaat sababi" />
-                        <Input color='teal' label='Telefon raqam'></Input>
+                        <Input required color="teal" label="Murojaat sababi" />
+                        <Input required color='teal' label='Telefon raqam'></Input>
                     </span>
 
                     <span className='span2'>
@@ -49,10 +49,11 @@ export default function Murojaat() {
                         </ImgCrop>
 
                     </span>
+                    <Input required color="teal" label="Lokatsiya" />
                     <textarea placeholder='Muammo haqida yozing' className='text-white bg-transparent' name="" id="" rows="6"></textarea>
-                    <div className="btns">
-                        <Button type='button'>Jo'natish</Button>
-                        <Button></Button>
+                    <div className="btns flex items-center justify-between w-full gap-5">
+                        <Button className='w-full' type='submit'>Jo'natish</Button>
+                        <Button className='w-full' type='reset'>Reset</Button>
                     </div>
                 </form>
             </div>

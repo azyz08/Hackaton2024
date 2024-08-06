@@ -26,7 +26,7 @@ export default function Contact() {
     };
     return (
         <>
-            <div className="bigForm">
+            <div className="bigForm bigForm2">
                 <form>
                     <h1 className='text-[25px] text-center'>Biz bilan bog'laning</h1>
                     <span>
