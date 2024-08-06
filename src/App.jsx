@@ -13,8 +13,7 @@ export default function App() {
   return (
     <div className={`${darkMode ? "dark" : ""}`}>
       <Navbar />
-      <div className="bigBox duration-300 dark:bg-[#121212] dark:text-white bg-white text-black">
-
+      <div className="bigBox duration-300 bg-[#32CD32] dark:bg-[#121212] text-[white]">
         <div className="pages">
           <Routes>
             <Route path="/" element={<Home />} />
