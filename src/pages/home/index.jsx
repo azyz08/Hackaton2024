@@ -4,7 +4,7 @@ import "./style.scss"
 export default function Home() {
     return (
         <>
-            <div>
+            <div className="">
                 <div className="bg-[url(../../../public/tabiat.jpg)] px-[160px] py-[250px]">
                     <div>
                         <p className="text-5xl flex items-center text-white">Tabiatga mehr bering, u sizga boylik beradi.</p>
