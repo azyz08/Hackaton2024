@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./footer.scss"
 import { Typography } from "@material-tailwind/react";
 
@@ -6,7 +7,8 @@ export default function Footer() {
         <>
         <footer className="w-full bg-white p-8">
       <div className="flex flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 bg-white text-center md:justify-between">
-        <img src="https://media.tenor.com/c9hBqUmb588AAAAj/sustainability-environment.gif" alt="logo-ct" className="w-10" />
+        <Link className="flex items-center"> <img src="https://media.tenor.com/c9hBqUmb588AAAAj/sustainability-environment.gif" alt="" className="w-10" />
+        <p className="text-green-700 text-xl ">EcoSwap</p></Link>
         <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
           <li>
             <Typography
@@ -52,7 +54,7 @@ export default function Footer() {
       </div>
       <hr className="my-8 border-blue-gray-50" />
       <Typography color="blue-gray" className="text-center font-normal">
-        &copy; 2023 Material Tailwind
+        &copy; Coddy Camp
       </Typography>
     </footer>
         </>
