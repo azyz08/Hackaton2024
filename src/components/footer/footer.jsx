@@ -1,11 +1,21 @@
 import { Link } from "react-router-dom";
 import "./footer.scss"
+import { useTranslation } from "react-i18next";
 import { Typography } from "@material-tailwind/react";
+import { useEffect } from "react";
 
 export default function Footer() {
+  const { t, i18n } = useTranslation();
+
+  useEffect(() => {
+    const savedLanguage = localStorage.getItem('language');
+    if (savedLanguage) {
+        i18n.changeLanguage(savedLanguage);
+    }
+}, [i18n]);
     return(
         <>
-        <footer className="w-full bg-white p-8 pt-0 dark:bg-black">
+        <footer className="w-full bg-white p-8 pt-0 dark:bg-black dark:text-white">
       <div className="flex flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 bg-white text-center md:justify-between">
         <Link className="flex items-center gap-4"> <img src="https://media.tenor.com/c9hBqUmb588AAAAj/sustainability-environment.gif" alt="" className="w-10" />
         <p className="text-green-700 text-xl mb-[-10px]">EcoSwap</p></Link>
@@ -17,7 +27,7 @@ export default function Footer() {
               color="blue-gray"
               className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
             >
-            Home
+            {t("son")}
             </Typography>
           </li>
           <li>
@@ -27,7 +37,7 @@ export default function Footer() {
               color="blue-gray"
               className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
             >
-               About Us
+               {t("log")}
             </Typography>
           </li>
           <li>
@@ -37,7 +47,7 @@ export default function Footer() {
               color="blue-gray"
               className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
             >
-              Murojaat qilish
+              {t("bor")}
             </Typography>
           </li>
           <li>
@@ -47,7 +57,7 @@ export default function Footer() {
               color="blue-gray"
               className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
             >
-              Contact 
+              {t("pop")}
             </Typography>
           </li>
         </ul>
