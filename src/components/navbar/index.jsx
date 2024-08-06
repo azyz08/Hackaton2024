@@ -34,10 +34,10 @@ export default function Navbar() {
 
     return (
         <>
-            <div className="nav navbar bg-[white] dark:bg-[black] text-[#32CD32]">
+            <div className="nav navbar bg-[#EDFDE0] dark:bg-[black] text-[#32CD32]">
                 <Link className="logo" to={"/"}><img src="https://media.tenor.com/c9hBqUmb588AAAAj/sustainability-environment.gif" alt="" /><p>EcoSwap</p></Link>
                 <input type="checkbox" id="m" />
-                <ul className="duration-200 bg-[white] dark:bg-[black] text-[#32CD32">
+                <ul className="duration-200 bg-[#EDFDE0] dark:bg-[black] text-[#32CD32">
                     <div className="labelBox">
                         <label className="text-[black] dark:text-[white]" htmlFor="m"><i class="fa-solid fa-xmark"></i></label>
                         <select className="border-[1px] rounded-[5px] pt-[1px] pb-[1px] bg-white cursor-pointer border-[blue] text-[#121212] focus:outline-none text-[20px]" value={i18n.language} onChange={handleChange}>
@@ -77,7 +77,7 @@ export default function Navbar() {
                 </ul>
                 <div className="icons">
                     <DarkModeSwitch
-                        className="text-[#FFA500] dark:text-white"
+                        className="text-[#FFA500] dark:text-[#8989ff]"
                         checked={darkMode}
                         onChange={toggleDarkMode}
                         size={25} />

@@ -3,7 +3,9 @@ import "./style.scss"
 export default function About() {
     return (
         <>
-
+         <div className="bosh pt-[60px] mt-[-5px]">
+                <h1>O'zbekiston Respublikasi Ekologiya Atrof-Muhitni Muhofoza qilish va iqlim o'zgarishi vazirligi</h1>
+            </div>
             <div className="katta">
                 <div className="main">
                     <div id="c2" className="card">
@@ -14,7 +16,7 @@ export default function About() {
                                     <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z"></path>
                                     </svg>
-                                    Tel:(+998) 085 41 73
+                                    Tel:(998-71) 207-07-70
                                 </li>
                                 <li class="icon-contact">
                                     <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -34,7 +36,7 @@ export default function About() {
                                 </svg>
                             </li>
                             <li class="address-title">Address:</li>
-                            <li class="address">Qorasaroy 102 uy</li>
+                            <li class="address"> Toshkent shahri, Chilonzor tumani, Bunyodkor shoh ko‘chasi, 7-A uy</li>
                         </div>
                     </div>
 
@@ -43,8 +45,8 @@ export default function About() {
                             <div className="card-avatar">
                                 <img src="./jamshid.jpg" alt="" />
                             </div>
-                            <div className="card-title">Jamshid</div>
-                            <div className="card-subtitle">Tursunov</div>
+                            <div className="card-title">Aziz</div>
+                            <div className="card-subtitle">Abduxakimov </div>
                             <div className="card-social">
                                 <li id="cs1" className="card-social-icon">
                                     <a href=""><i className="text-lg fa-brands fa-instagram"></i></a>
@@ -71,13 +73,13 @@ export default function About() {
                                     <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z"></path>
                                     </svg>
-                                    Tel:(+998) 99 090 18 44
+                                    Tel:(998-71) 207-07-70
                                 </li>
                                 <li className="icon-contact">
                                     <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"></path>
                                     </svg>
-                                    Email: ibroximova014.gmail.com
+                                    Email: info@eco.gov.uz
                                 </li>
                             </div>
                         </div>
@@ -91,7 +93,7 @@ export default function About() {
                                 </svg>
                             </li>
                             <li className="address-title">Address:</li>
-                            <li className="address">Aviasozlar 74 61`</li>
+                            <li className="address">Toshkent shahri, Chilonzor tumani, Bunyodkor shoh ko‘chasi, 7-A uy</li>
                         </div>
                     </div>
 
@@ -100,8 +102,8 @@ export default function About() {
                             <div className="card-avatar">
                                 <img src="./azizbek.jpg" alt="" />
                             </div>
-                            <div className="card-title">Azizbek</div>
-                            <div className="card-subtitle">Ibohimov</div>
+                            <div className="card-title">Obidjon</div>
+                            <div className="card-subtitle">Qudratov</div>
                             <div className="card-social">
                                 <li id="cs1" className="card-social-icon">
                                     <a href="https://www.instagram.com/ibrohiimov_/?next=%2F"><i class="text-lg fa-brands fa-instagram"></i></a>
@@ -129,14 +131,14 @@ export default function About() {
                                     <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z"></path>
                                     </svg>
-                                    Tel:(+998) 77 800 46 00
+                                    Tel:(998-71) 207-07-70
                                 </li>
                                 <li className="icon-contact">
                                     <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
 
                                         <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"></path>
                                     </svg>
-                                    Email: abduxabir2009.gmail.com
+                                    Email: info@eco.gov.uz
                                 </li>
                             </div>
                         </div>
@@ -150,7 +152,7 @@ export default function About() {
                                 </svg>
                             </li>
                             <li className="address-title">Address:</li>
-                            <li className="address">Qorasaroy 179 uy</li>
+                            <li className="address">Toshkent shahri, Chilonzor tumani, Bunyodkor shoh ko‘chasi, 7-A uy</li>
                         </div>
                     </div>
 
@@ -159,8 +161,8 @@ export default function About() {
                             <div className="card-avatar">
                                 <img src="./Abduxabir.jpg" alt="" />
                             </div>
-                            <div className="card-title">Abduxabir</div>
-                            <div className="card-subtitle">Abduqayumov</div>
+                            <div className="card-title">Jusipbek</div>
+                            <div className="card-subtitle">Kazbekov</div>
                             <div className="card-social">
                                 <li id="cs1" className="card-social-icon">
                                     <a href="https://www.instagram.com/adxbir/followers/"><i class="text-lg fa-brands fa-instagram"></i></a>
@@ -188,13 +190,13 @@ export default function About() {
                                     <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d=""></path>
                                     </svg>
-                                    Tel:(+998) 097 06 63
+                                    Tel:(998-71) 207-07-70
                                 </li>
                                 <li className="icon-contact">
                                     <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d=""></path>
                                     </svg>
-                                    Email: shoxzamon06@gmail.com
+                                    Email: info@eco.gov.uz
                                 </li>
                             </div>
 
@@ -209,7 +211,7 @@ export default function About() {
                                 </svg>
                             </li>
                             <li class="address-title">Address:</li>
-                            <li class="address">Sputnik 16a 8dom 2etaj 27honadonx`</li>
+                            <li class="address"> Toshkent shahri, Chilonzor tumani, Bunyodkor shoh ko‘chasi, 7-A uy</li>
                         </div>
                     </div>
 
@@ -218,8 +220,8 @@ export default function About() {
                             <div className="card-avatar">
                                 <img src="./shoxzamon.jpg" alt="" />
                             </div>
-                            <div className="card-title">Shoxzamon</div>
-                            <div className="card-subtitle">Xasanov</div>
+                            <div className="card-title">Iskandar</div>
+                            <div className="card-subtitle">Qutbiddinov</div>
                             <div className="card-social">
                                 <li id="cs1" className="card-social-icon">
                                     <a href="https://www.instagram.com/shox_0uroe/"><i class="text-lg fa-brands fa-instagram"></i></a>
@@ -247,14 +249,14 @@ export default function About() {
                                     <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z"></path>
                                     </svg>
-                                    Tel:(+998) 97 130 40 47
+                                    Tel:(998-71) 207-07-70
                                 </li>
                                 <li class="icon-contact">
                                     <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
 
                                         <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"></path>
                                     </svg>
-                                    Email: farhodtojiyev3@gmail.com
+                                    Email: info@eco.gov.uz
                                 </li>
                             </div>
                         </div>
@@ -268,7 +270,7 @@ export default function About() {
                                 </svg>
                             </li>
                             <li className="address-title">Address:</li>
-                            <li className="address">Chilonzor 20-kv hakimxon 88-a uy</li>
+                            <li className="address"> Toshkent shahri, Chilonzor tumani, Bunyodkor shoh ko‘chasi, 7-A uy</li>
                         </div>
                     </div>
 
@@ -277,8 +279,8 @@ export default function About() {
                             <div className="card-avatar">
                                 <img src="./farhot.jpg" alt="" />
                             </div>
-                            <div className="card-title">Farhod</div>
-                            <div className="card-subtitle">Tojiev</div>
+                            <div className="card-title"> Rasul</div>
+                            <div className="card-subtitle">Kusherbayev</div>
                             <div className="card-social">
                                 <li id="cs1" className="card-social-icon">
                                     <a href="https://www.instagram.com/pgc_royal/"><i class="text-lg fa-brands fa-instagram"></i></a>
@@ -297,7 +299,17 @@ export default function About() {
                         </div>
                     </div>
                 </div>
+            </div>
 
+            <h1 className="text-center text-[50px]">Bizning hamkorlar</h1>
+
+            <div className="hamkor grid grid-cols-3 items-center gap-3 p-4 pl-10 pb-10">
+                <img className="ml-[130px]" src="/oq.png" alt="" />
+                <img className="m-[auto]" src="https://static.tildacdn.com/tild3564-6566-4563-a332-386130303564/_.png" alt="" />
+                <img className="m-[auto]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrz40af-0jb_dUGjAeUIS2mVmQ_8UjmJPF-A&s" alt="" />
+                <img className="m-[auto]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfFO8SBoMYNXLEMWkdNizODQvg5476aPs3BA&s" alt="" />
+                <img className="m-[auto]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAk4LWuiSxz6LrljUNDK-GLncxIyOapz9Lkg&s" alt="" />
+                <img className="m-[auto]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpixJyqeHsf-lXhg0evayffCSEL72NOTTHJg&s" alt="" />
             </div>
         </>
     )

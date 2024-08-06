@@ -1,3 +1,10 @@
+.bosh{
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  margin-left: 350px;
+  width: 1000px;
+}
 .l{
   border: 1px solid rgb(184, 183, 183);
   align-items: center;
@@ -270,6 +277,11 @@
     }
   }
   @media (max-width: 900px){
+    .bosh{
+      width: 800px;
+      margin: 0px;
+      padding-left: 50px;      
+    }
     .main1{
       padding: 0px;
       margin: 0px;
