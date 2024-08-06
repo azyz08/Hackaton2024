@@ -26,6 +26,15 @@
             border: 1.5px solid #32CD32;
         }
 
+        button {
+            background-color: #2aaf2a;
+            transition: 0.2s;
+
+            &:hover {
+                background-color: #1f871f;
+            }
+        }
+
 
         span {
             display: flex;
