@@ -3,7 +3,7 @@ import "./style.scss"
 export default function About() {
     return (
         <>
-         <div className="bosh">
+         <div className="bosh pt-[60px] mt-[-5px]">
                 <h1>O'zbekiston Respublikasi Ekologiya Atrof-Muhitni Muhofoza qilish va iqlim o'zgarishi vazirligi</h1>
             </div>
             <div className="katta">
@@ -299,6 +299,17 @@ export default function About() {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <h1 className="text-center text-[50px]">Bizning hamkorlar</h1>
+
+            <div className="hamkor grid grid-cols-3 items-center gap-3 p-4 pl-10 pb-10">
+                <img className="ml-[130px]" src="/oq.png" alt="" />
+                <img className="m-[auto]" src="https://static.tildacdn.com/tild3564-6566-4563-a332-386130303564/_.png" alt="" />
+                <img className="m-[auto]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrz40af-0jb_dUGjAeUIS2mVmQ_8UjmJPF-A&s" alt="" />
+                <img className="m-[auto]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfFO8SBoMYNXLEMWkdNizODQvg5476aPs3BA&s" alt="" />
+                <img className="m-[auto]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAk4LWuiSxz6LrljUNDK-GLncxIyOapz9Lkg&s" alt="" />
+                <img className="m-[auto]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpixJyqeHsf-lXhg0evayffCSEL72NOTTHJg&s" alt="" />
             </div>
         </>
     )
