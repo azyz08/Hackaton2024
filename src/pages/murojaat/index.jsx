@@ -34,8 +34,8 @@ export default function Murojaat() {
                         <Input color='blue' label='Telefon raqam'></Input>
                     </span>
 
-                    <span>
-                        <p>Tabiat buzilishi haqida <br /> rasm yoki videoni kiriting</p>
+                    <span className='span2'>
+                        <p className='text-black dark:text-white'>Tabiat buzilishi haqida <br /> rasm yoki videoni kiriting</p>
                         <ImgCrop rotationSlider>
                             <Upload className='upload'
                                 action="https://660d2bd96ddfa2943b33731c.mockapi.io/api/upload"
@@ -49,7 +49,7 @@ export default function Murojaat() {
                         </ImgCrop>
 
                     </span>
-                    <textarea name="" id=""></textarea>
+                    <textarea placeholder='Muammo haqida yozing' className='text-black dark:text-white bg-transparent' name="" id="" rows="6"></textarea>
                 </form>
             </div>
         </>
