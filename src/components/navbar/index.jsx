@@ -31,24 +31,10 @@ export default function Navbar() {
         setActiveLink(path);
     };
 
-    const [scrolled, setScrolled] = useState(false);
-    const handleScroll = () => {
-        if (window.scrollY > 0) {
-            setScrolled(true);
-        } else {
-            setScrolled(false);
-        }
-    };
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
 
     return (
         <>
-            <div className={`nav navbar bg-[white] dark:bg-[black] text-[#32CD32] ${scrolled ? 'scrolled' : ''}`}>
+            <div className="nav navbar bg-[white] dark:bg-[black] text-[#32CD32]">
                 <Link className="logo" to={"/"}><img src="https://media.tenor.com/c9hBqUmb588AAAAj/sustainability-environment.gif" alt="" /><p>EcoSwap</p></Link>
                 <input type="checkbox" id="m" />
                 <ul className="duration-200 bg-[white] dark:bg-[black] text-[#32CD32">
