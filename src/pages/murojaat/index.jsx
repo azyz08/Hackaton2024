@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Upload } from 'antd';
 import ImgCrop from 'antd-img-crop';
-import { Input } from '@material-tailwind/react';
+import { Button, Input } from '@material-tailwind/react';
 import "./style.scss"
 
 export default function Murojaat() {
@@ -26,16 +26,16 @@ export default function Murojaat() {
     };
     return (
         <>
-            <h1>Murojaat</h1>
             <div className="bigForm">
                 <form>
+                    <h1 className='text-[25px] text-center'>Qanday muammo bor</h1>
                     <span>
-                        <Input color="blue" label="Murojaat sababi" />
-                        <Input color='blue' label='Telefon raqam'></Input>
+                        <Input color="teal" label="Murojaat sababi" />
+                        <Input color='teal' label='Telefon raqam'></Input>
                     </span>
 
                     <span className='span2'>
-                        <p className='text-black dark:text-white'>Tabiat buzilishi haqida <br /> rasm yoki videoni kiriting</p>
+                        <p className='dark:text-white'>Tabiat buzilishi haqida <br /> rasm yoki videoni kiriting</p>
                         <ImgCrop rotationSlider>
                             <Upload className='upload'
                                 action="https://660d2bd96ddfa2943b33731c.mockapi.io/api/upload"
@@ -49,7 +49,11 @@ export default function Murojaat() {
                         </ImgCrop>
 
                     </span>
-                    <textarea placeholder='Muammo haqida yozing' className='text-black dark:text-white bg-transparent' name="" id="" rows="6"></textarea>
+                    <textarea placeholder='Muammo haqida yozing' className='text-white bg-transparent' name="" id="" rows="6"></textarea>
+                    <div className="btns">
+                        <Button type='button'>Jo'natish</Button>
+                        <Button></Button>
+                    </div>
                 </form>
             </div>
         </>
