@@ -50,28 +50,28 @@ export default function Navbar() {
                         to="/"
                         onClick={() => handleClick('/')}
                         className={activeLink === '/' ? 'active' : 'link'}
-                    ><p>Home</p>
+                    ><p>{t("son")}</p>
                         <span className={`underline ${activeLink === '/' ? 'active' : ''}`}></span>
                     </Link>
                     <Link
                         to="/about"
                         onClick={() => handleClick('/about')}
                         className={activeLink === '/about' ? 'active' : 'link'}
-                    > <p>About us</p>
+                    > <p>{t("log")}</p>
                         <span className={`underline ${activeLink === '/about' ? 'active' : ''}`}></span>
                     </Link>
                     <Link
                         to="/murojaat"
                         onClick={() => handleClick('/murojaat')}
                         className={activeLink === '/murojaat' ? 'active' : 'link'}
-                    > <p>Murojaat qilish</p>
+                    > <p>{t("bor")}</p>
                         <span className={`underline ${activeLink === '/murojaat' ? 'active' : ''}`}></span>
                     </Link>
                     <Link
                         to="/contact"
                         onClick={() => handleClick('/contact')}
                         className={activeLink === '/contact' ? 'active' : 'link'}
-                    > <p>Contact</p>
+                    > <p>{t("pop")}</p>
                         <span className={`underline ${activeLink === '/contact' ? 'active' : ''}`}></span>
                     </Link>
                 </ul>
