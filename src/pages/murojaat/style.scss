@@ -36,6 +36,13 @@
             }
         }
 
+        .btn2 {
+            background-color: #7b0000;
+
+            &:hover {
+                background-color: #5d0000;
+            }
+        }
 
         span {
             display: flex;

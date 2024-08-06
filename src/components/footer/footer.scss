@@ -1,0 +1,53 @@
+.foote {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 50px;
+
+    .log {
+        font-size: 35px;
+    }
+
+    .log {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        img {
+            width: 40px;
+        }
+
+        p {
+            font-size: 25px;
+            margin-top: 12px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+
+        .link {
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    }
+}
+
+.en {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 50px;
+
+    h1 {
+        padding-top: 20px;
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid grey;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
