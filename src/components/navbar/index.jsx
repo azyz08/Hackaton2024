@@ -48,7 +48,7 @@ export default function Navbar() {
 
     return (
         <>
-            <div className={`nav dark:bg-[#121212] navbar ${scrolled ? 'scrolled' : ''}`}>
+            <div className={`nav navbar ${scrolled ? 'scrolled' : ''}`}>
                 <Link className="logo" to={"/"}><img src="https://media.tenor.com/c9hBqUmb588AAAAj/sustainability-environment.gif" alt="" /><p>EcoSwap</p></Link>
                 <ul>
                     <Link

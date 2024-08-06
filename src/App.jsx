@@ -12,8 +12,8 @@ export default function App() {
   const { darkMode } = useMode();
   return (
     <div className={`${darkMode ? "dark" : ""}`}>
+      <Navbar />
       <div className="bigBox duration-300 dark:bg-[#121212] dark:text-white bg-white text-black">
-        <Navbar />
 
         <div className="pages">
           <Routes>
