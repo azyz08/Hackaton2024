@@ -238,7 +238,7 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-                <div className="main">
+                <div className="main1">
                     <div id="c2" className="card">
                         <div className="card-info">
                             <div className="contact-title">{("Contact")}</div>
@@ -277,7 +277,7 @@ export default function About() {
                             <div className="card-avatar">
                                 <img src="./farhot.jpg" alt="" />
                             </div>
-                            <div className="card-title">Farhot</div>
+                            <div className="card-title">Farhod</div>
                             <div className="card-subtitle">Tojiev</div>
                             <div className="card-social">
                                 <li id="cs1" className="card-social-icon">
