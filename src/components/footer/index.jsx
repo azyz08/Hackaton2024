@@ -1,53 +1,18 @@
-import { Typography } from "@material-tailwind/react";
+import { Link } from "react-router-dom";
+import "./style.scss"
+import { useTranslation } from "react-i18next";
 
 export function Footer() {
+    const { t } = useTranslation();
     return (
-        <footer className="flex w-full flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 border-t border-blue-gray-50 py-6 text-center md:justify-between">
-            <Typography color="blue-gray" className="font-normal">
-                &copy; 2023 Material Tailwind
-            </Typography>
-            <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
-                <li>
-                    <Typography
-                        as="a"
-                        href="#"
-                        color="blue-gray"
-                        className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
-                    >
-                        About Us
-                    </Typography>
-                </li>
-                <li>
-                    <Typography
-                        as="a"
-                        href="#"
-                        color="blue-gray"
-                        className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
-                    >
-                        License
-                    </Typography>
-                </li>
-                <li>
-                    <Typography
-                        as="a"
-                        href="#"
-                        color="blue-gray"
-                        className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
-                    >
-                        Contribute
-                    </Typography>
-                </li>
-                <li>
-                    <Typography
-                        as="a"
-                        href="#"
-                        color="blue-gray"
-                        className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
-                    >
-                        Contact Us
-                    </Typography>
-                </li>
+        <div className="footer border-t-2">
+            <Link className="logo" to={"/"}><img src="https://media.tenor.com/c9hBqUmb588AAAAj/sustainability-environment.gif" alt="" /><p>EcoSwap</p></Link>
+            <ul>
+                <Link className="link" to={"/"}>{t("son")}</Link>
+                <Link className="link" to={"/about"}>{t("log")}</Link>
+                <Link className="link" to={"/murojaat"}>{t("bor")}</Link>
+                <Link className="link" to={"/contact"}>{t("pop")}</Link>
             </ul>
-        </footer>
+        </div>
     );
 }

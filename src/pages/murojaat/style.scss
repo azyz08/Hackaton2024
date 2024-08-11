@@ -17,8 +17,7 @@
         width: 600px;
         padding: 20px;
         border-radius: 20px;
-        // background-image: linear-gradient(to right, #00000079, #00000079), url("https://c4.wallpaperflare.com/wallpaper/1018/497/278/go-green-wallpaper-preview.jpg");
-        backdrop-filter: blur(10px);
+        background-image: linear-gradient(to right, #00000079, #00000079), url("https://c4.wallpaperflare.com/wallpaper/1018/497/278/go-green-wallpaper-preview.jpg");
         background-position: center;
         background-size: cover;
 
@@ -33,14 +32,6 @@
 
             &:hover {
                 background-color: #1f871f;
-            }
-        }
-
-        .btn2 {
-            background-color: #7b0000;
-
-            &:hover {
-                background-color: #5d0000;
             }
         }
 
@@ -63,6 +54,11 @@
 
         .span2 {
             padding: 0 20px;
+        }
+
+        button {
+            width: 120px;
+            margin: auto;
         }
 
         textarea {

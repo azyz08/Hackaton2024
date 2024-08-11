@@ -34,12 +34,12 @@ export default function Navbar() {
 
     return (
         <>
-            <div className="nav navbar bg-[#EDFDE0] dark:bg-[black] text-[#32CD32]">
+            <div className="nav duration-500 navbar bg-[white] dark:bg-[black] text-[#32CD32]">
                 <Link className="logo" to={"/"}><img src="https://media.tenor.com/c9hBqUmb588AAAAj/sustainability-environment.gif" alt="" /><p>EcoSwap</p></Link>
                 <input type="checkbox" id="m" />
-                <ul className="duration-200 bg-[#EDFDE0] dark:bg-[black] text-[#32CD32">
+                <ul className="bg-[white] dark:bg-[black] text-[#32CD32]">
                     <div className="labelBox">
-                        <label className="text-[black] dark:text-[white]" htmlFor="m"><i class="fa-solid fa-xmark"></i></label>
+                        <label className="cursor-pointer text-[black] dark:text-[white]" htmlFor="m"><i class="fa-solid fa-xmark"></i></label>
                         <select className="border-[1px] rounded-[5px] pt-[1px] pb-[1px] bg-white cursor-pointer border-[blue] text-[#121212] focus:outline-none text-[20px]" value={i18n.language} onChange={handleChange}>
                             <option value="uz">O'z</option>
                             <option value="ru">Рус</option>
@@ -86,7 +86,7 @@ export default function Navbar() {
                         <option value="ru">Рус</option>
                         <option value="en">Eng</option>
                     </select>
-                    <label className="text-[25px]" htmlFor="m"><i class="fa-solid fa-bars"></i></label>
+                    <label className="cursor-pointer text-[25px]" htmlFor="m"><i class="fa-solid fa-bars"></i></label>
                 </div>
             </div>
         </>

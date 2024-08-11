@@ -6,8 +6,7 @@ import Home from "./pages/home";
 import About from "./pages/about";
 import Murojaat from "./pages/murojaat";
 import Contact from "./pages/contact";
-// import Footer from "./components/footer";
-
+import { Footer } from "./components/footer";
 
 export default function App() {
   const { darkMode } = useMode();
@@ -24,7 +23,7 @@ export default function App() {
           </Routes>
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
